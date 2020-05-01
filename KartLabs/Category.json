@@ -6,21 +6,21 @@
  },{
      "name": "Mens",
      "id": 2,
-     "content": "",
+     "content": "Mens Jeans, Mens T-shrts, Trousers",
      "imageName": "mens"
  },{
      "name": "Womens",
      "id": 3,
-     "content": "r",
+     "content": "",
      "imageName": "womens"
  },{
      "name": "Baby",
      "id": 4,
-     "content": "Mobiles, Laptops, Camera, Trimmer",
+     "content": "Baby soap, Baby powders, Baby daipers",
      "imageName": "baby"
  },{
          "name": "Kids",
          "id": 5,
-         "content": "Mobiles, Laptops, Camera, Trimmer",
+         "content": "Kids toys, Kids bi-cycle, Kids pants",
          "imageName": "kids"
      }]

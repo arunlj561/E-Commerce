@@ -37,6 +37,7 @@
 		7F9DF70E245BE3FB008E5F63 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF70D245BE3FB008E5F63 /* View+Extension.swift */; };
 		7F9DF710245BE414008E5F63 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF70F245BE414008E5F63 /* UserDefaults+Extension.swift */; };
 		7F9DF717245BE818008E5F63 /* ProductDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF716245BE818008E5F63 /* ProductDatasource.swift */; };
+		7FFCD62A245C687D00020EB3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCD629245C687D00020EB3 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		7F9DF70D245BE3FB008E5F63 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		7F9DF70F245BE414008E5F63 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		7F9DF716245BE818008E5F63 /* ProductDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDatasource.swift; sourceTree = "<group>"; };
+		7FFCD629245C687D00020EB3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,17 +147,15 @@
 			children = (
 				7F492648245ABDA9000080A5 /* AppDelegate.swift */,
 				7F49264E245ABDA9000080A5 /* Main.storyboard */,
+				7F492656245ABDAB000080A5 /* LaunchScreen.storyboard */,
+				7F492659245ABDAB000080A5 /* Info.plist */,
 				7F492654245ABDAB000080A5 /* Assets.xcassets */,
 				7F4E7AC3245C36CA005F8345 /* Manager */,
 				7F9DF709245BE3A0008E5F63 /* Home */,
 				7F9DF715245BE780008E5F63 /* ProductsList */,
-				7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */,
-				7F4E7ACA245C3785005F8345 /* ProductDetailDatasource.swift */,
-				7F4E7ACC245C38AB005F8345 /* DetailTableViewCell.swift */,
+				7FFCD625245C683800020EB3 /* ProductDetails */,
 				7F4E7ABC245C1B39005F8345 /* Cart */,
 				7F9DF70A245BE3AD008E5F63 /* Helpers */,
-				7F492656245ABDAB000080A5 /* LaunchScreen.storyboard */,
-				7F492659245ABDAB000080A5 /* Info.plist */,
 				7F492691245AD219000080A5 /* CoreData */,
 				7F492683245AC24A000080A5 /* Products.json */,
 				7F492685245AC283000080A5 /* Category.json */,
@@ -299,6 +299,7 @@
 				7F49267D245AC0DC000080A5 /* Cell+Extension.swift */,
 				7F9DF70D245BE3FB008E5F63 /* View+Extension.swift */,
 				7F9DF70F245BE414008E5F63 /* UserDefaults+Extension.swift */,
+				7FFCD629245C687D00020EB3 /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -344,6 +345,40 @@
 				7F4E7AC2245C36AA005F8345 /* Model */,
 			);
 			path = ProductsList;
+			sourceTree = "<group>";
+		};
+		7FFCD625245C683800020EB3 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7FFCD626245C684200020EB3 /* ViewController */,
+				7FFCD627245C684C00020EB3 /* Datasource */,
+				7FFCD628245C685400020EB3 /* Cell */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		7FFCD626245C684200020EB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7FFCD627245C684C00020EB3 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E7ACA245C3785005F8345 /* ProductDetailDatasource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		7FFCD628245C685400020EB3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E7ACC245C38AB005F8345 /* DetailTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFCD62A245C687D00020EB3 /* UIViewController+Extension.swift in Sources */,
 				7F7B7832245B2D9C00EC00E6 /* Utility.swift in Sources */,
 				7F492653245ABDA9000080A5 /* KartLabs.xcdatamodeld in Sources */,
 				7F9DF70E245BE3FB008E5F63 /* View+Extension.swift in Sources */,
