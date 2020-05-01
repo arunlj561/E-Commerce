@@ -91,22 +91,22 @@
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="oou-42-eqC" customClass="CategoryCollectionViewCell" customModule="KartLabs" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="163" height="211"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="p9T-5p-23T">
                                             <rect key="frame" x="0.0" y="0.0" width="163" height="211"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I5d-fY-R4d">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I5d-fY-R4d">
                                                     <rect key="frame" x="8" y="8" width="147" height="195"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rAd-uk-ayz">
-                                                            <rect key="frame" x="8" y="8" width="106" height="128"/>
+                                                            <rect key="frame" x="8" y="8" width="131" height="128"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="128" id="mYw-GM-LP7"/>
                                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="170" id="quL-Sh-BQ5"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electronics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCv-7a-Ts7">
-                                                            <rect key="frame" x="8" y="144" width="106" height="21"/>
+                                                            <rect key="frame" x="8" y="144" width="131" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="jQ6-Px-GZO"/>
                                                             </constraints>
@@ -115,7 +115,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile, Laptops" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6u-Rn-uvz">
-                                                            <rect key="frame" x="8" y="173" width="106" height="21"/>
+                                                            <rect key="frame" x="8" y="173" width="131" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="oqr-lj-ngR"/>
                                                             </constraints>
@@ -138,13 +138,13 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="I5d-fY-R4d" secondAttribute="bottom" constant="8" id="8EL-Dj-xVW"/>
-                                            <constraint firstAttribute="trailing" secondItem="I5d-fY-R4d" secondAttribute="trailing" constant="8" id="8Pa-3t-X9M"/>
-                                            <constraint firstItem="I5d-fY-R4d" firstAttribute="leading" secondItem="oou-42-eqC" secondAttribute="leading" constant="8" id="I7Y-61-0kf"/>
-                                            <constraint firstItem="I5d-fY-R4d" firstAttribute="top" secondItem="oou-42-eqC" secondAttribute="top" constant="8" id="RZZ-n2-LC7"/>
-                                        </constraints>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="I5d-fY-R4d" secondAttribute="bottom" constant="8" id="8EL-Dj-xVW"/>
+                                                <constraint firstAttribute="trailing" secondItem="I5d-fY-R4d" secondAttribute="trailing" constant="8" id="8Pa-3t-X9M"/>
+                                                <constraint firstItem="I5d-fY-R4d" firstAttribute="leading" secondItem="p9T-5p-23T" secondAttribute="leading" constant="8" id="I7Y-61-0kf"/>
+                                                <constraint firstItem="I5d-fY-R4d" firstAttribute="top" secondItem="p9T-5p-23T" secondAttribute="top" constant="8" id="RZZ-n2-LC7"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
                                         <size key="customSize" width="163" height="211"/>
                                         <connections>
                                             <outlet property="content" destination="L6u-Rn-uvz" id="6x1-PR-J8r"/>
@@ -328,7 +328,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$390" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSC-B0-Ts0">
-                                                    <rect key="frame" x="15.999999999999996" y="173" width="37.666666666666657" height="17"/>
+                                                    <rect key="frame" x="16" y="173" width="46" height="17"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -419,6 +419,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="jeu-XQ-mlZ" secondAttribute="trailing" constant="8" id="nxc-AJ-3h9"/>
                                                 <constraint firstAttribute="trailing" secondItem="gAR-hQ-Jxs" secondAttribute="trailing" constant="16" id="x71-TT-RZg"/>
                                                 <constraint firstItem="MGP-7e-9NB" firstAttribute="leading" secondItem="KXA-1z-70D" secondAttribute="leading" constant="8" id="xg6-oZ-gNJ"/>
+                                                <constraint firstItem="Fu6-aH-Twe" firstAttribute="leading" secondItem="VSC-B0-Ts0" secondAttribute="trailing" constant="4" id="zeE-2T-PJl"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="162" height="211"/>
