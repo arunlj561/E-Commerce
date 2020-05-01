@@ -8,14 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7F492649245ABDA9000080A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492648245ABDA9000080A5 /* AppDelegate.swift */; };
-		7F49264B245ABDA9000080A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F49264A245ABDA9000080A5 /* SceneDelegate.swift */; };
-		7F49264D245ABDA9000080A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F49264C245ABDA9000080A5 /* ViewController.swift */; };
 		7F492650245ABDA9000080A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F49264E245ABDA9000080A5 /* Main.storyboard */; };
 		7F492653245ABDA9000080A5 /* KartLabs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F492651245ABDA9000080A5 /* KartLabs.xcdatamodeld */; };
 		7F492655245ABDAB000080A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F492654245ABDAB000080A5 /* Assets.xcassets */; };
 		7F492658245ABDAB000080A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F492656245ABDAB000080A5 /* LaunchScreen.storyboard */; };
 		7F492663245ABDAB000080A5 /* KartLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492662245ABDAB000080A5 /* KartLabsTests.swift */; };
 		7F49266E245ABDAB000080A5 /* KartLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F49266D245ABDAB000080A5 /* KartLabsUITests.swift */; };
+		7F49267C245ABE4A000080A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F49267B245ABE4A000080A5 /* HomeViewController.swift */; };
+		7F49267E245AC0DC000080A5 /* Cell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F49267D245AC0DC000080A5 /* Cell+Extension.swift */; };
+		7F492680245AC16A000080A5 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F49267F245AC16A000080A5 /* CategoryCollectionViewCell.swift */; };
+		7F492682245AC194000080A5 /* CategoryDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492681245AC194000080A5 /* CategoryDatasource.swift */; };
+		7F492684245AC24A000080A5 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F492683245AC24A000080A5 /* Products.json */; };
+		7F492686245AC283000080A5 /* Category.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F492685245AC283000080A5 /* Category.json */; };
+		7F492693245AD421000080A5 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492692245AD421000080A5 /* ProductListViewController.swift */; };
+		7F492695245AD82E000080A5 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */; };
+		7F492699245AD9C3000080A5 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */; };
+		7F7B7832245B2D9C00EC00E6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B7831245B2D9C00EC00E6 /* Utility.swift */; };
+		7F7B7834245B32EC00EC00E6 /* Category+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */; };
+		7F7B7836245B33EE00EC00E6 /* Products+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */; };
+		7F9DF708245BD849008E5F63 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF707245BD849008E5F63 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +49,6 @@
 /* Begin PBXFileReference section */
 		7F492645245ABDA9000080A5 /* KartLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F492648245ABDA9000080A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F49264A245ABDA9000080A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F49264C245ABDA9000080A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F49264F245ABDA9000080A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F492652245ABDA9000080A5 /* KartLabs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KartLabs.xcdatamodel; sourceTree = "<group>"; };
 		7F492654245ABDAB000080A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		7F492669245ABDAB000080A5 /* KartLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F49266D245ABDAB000080A5 /* KartLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartLabsUITests.swift; sourceTree = "<group>"; };
 		7F49266F245ABDAB000080A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F49267B245ABE4A000080A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F49267D245AC0DC000080A5 /* Cell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell+Extension.swift"; sourceTree = "<group>"; };
+		7F49267F245AC16A000080A5 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7F492681245AC194000080A5 /* CategoryDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDatasource.swift; sourceTree = "<group>"; };
+		7F492683245AC24A000080A5 /* Products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		7F492685245AC283000080A5 /* Category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Category.json; sourceTree = "<group>"; };
+		7F492692245AD421000080A5 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		7F7B7831245B2D9C00EC00E6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+Extension.swift"; sourceTree = "<group>"; };
+		7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+Extension.swift"; sourceTree = "<group>"; };
+		7F9DF707245BD849008E5F63 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +124,24 @@
 			isa = PBXGroup;
 			children = (
 				7F492648245ABDA9000080A5 /* AppDelegate.swift */,
-				7F49264A245ABDA9000080A5 /* SceneDelegate.swift */,
-				7F49264C245ABDA9000080A5 /* ViewController.swift */,
+				7F9DF707245BD849008E5F63 /* DatabaseManager.swift */,
+				7F49267B245ABE4A000080A5 /* HomeViewController.swift */,
+				7F492681245AC194000080A5 /* CategoryDatasource.swift */,
+				7F49267F245AC16A000080A5 /* CategoryCollectionViewCell.swift */,
+				7F49267D245AC0DC000080A5 /* Cell+Extension.swift */,
+				7F7B7831245B2D9C00EC00E6 /* Utility.swift */,
+				7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */,
+				7F492692245AD421000080A5 /* ProductListViewController.swift */,
+				7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */,
+				7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */,
+				7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */,
 				7F49264E245ABDA9000080A5 /* Main.storyboard */,
 				7F492654245ABDAB000080A5 /* Assets.xcassets */,
 				7F492656245ABDAB000080A5 /* LaunchScreen.storyboard */,
 				7F492659245ABDAB000080A5 /* Info.plist */,
-				7F492651245ABDA9000080A5 /* KartLabs.xcdatamodeld */,
+				7F492691245AD219000080A5 /* CoreData */,
+				7F492683245AC24A000080A5 /* Products.json */,
+				7F492685245AC283000080A5 /* Category.json */,
 			);
 			path = KartLabs;
 			sourceTree = "<group>";
@@ -129,6 +162,14 @@
 				7F49266F245ABDAB000080A5 /* Info.plist */,
 			);
 			path = KartLabsUITests;
+			sourceTree = "<group>";
+		};
+		7F492691245AD219000080A5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7F492651245ABDA9000080A5 /* KartLabs.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F492686245AC283000080A5 /* Category.json in Resources */,
 				7F492658245ABDAB000080A5 /* LaunchScreen.storyboard in Resources */,
+				7F492684245AC24A000080A5 /* Products.json in Resources */,
 				7F492655245ABDAB000080A5 /* Assets.xcassets in Resources */,
 				7F492650245ABDA9000080A5 /* Main.storyboard in Resources */,
 			);
@@ -261,10 +304,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F49264D245ABDA9000080A5 /* ViewController.swift in Sources */,
+				7F7B7832245B2D9C00EC00E6 /* Utility.swift in Sources */,
 				7F492653245ABDA9000080A5 /* KartLabs.xcdatamodeld in Sources */,
+				7F9DF708245BD849008E5F63 /* DatabaseManager.swift in Sources */,
+				7F7B7834245B32EC00EC00E6 /* Category+Extension.swift in Sources */,
+				7F492680245AC16A000080A5 /* CategoryCollectionViewCell.swift in Sources */,
+				7F492695245AD82E000080A5 /* ProductCollectionViewCell.swift in Sources */,
+				7F492693245AD421000080A5 /* ProductListViewController.swift in Sources */,
+				7F492682245AC194000080A5 /* CategoryDatasource.swift in Sources */,
 				7F492649245ABDA9000080A5 /* AppDelegate.swift in Sources */,
-				7F49264B245ABDA9000080A5 /* SceneDelegate.swift in Sources */,
+				7F492699245AD9C3000080A5 /* ProductDetailsViewController.swift in Sources */,
+				7F49267C245ABE4A000080A5 /* HomeViewController.swift in Sources */,
+				7F49267E245AC0DC000080A5 /* Cell+Extension.swift in Sources */,
+				7F7B7836245B33EE00EC00E6 /* Products+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KartLabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KartLabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
