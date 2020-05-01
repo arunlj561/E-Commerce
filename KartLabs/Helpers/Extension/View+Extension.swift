@@ -1,21 +1,15 @@
 //
-//  Protocol.swift
+//  View+Extension.swift
 //  KartLabs
 //
-//  Created by Arun Jangid on 30/04/20.
+//  Created by Arun Jangid on 01/05/20.
 //
 
 import UIKit
 
-extension UITableViewCell{
-    class var reuseIdentifier : String {
-        return "\(self)"
-    }
-}
-
-extension UICollectionViewCell{
-    class var reuseIdentifier : String {
-        return "\(self)"
+extension UIViewController{
+    @IBAction func pushBack(_ sender:UIButton){
+        self.navigationController?.popViewController(animated: true)
     }
 }
 
@@ -47,16 +41,5 @@ extension UIView{
     set {
             layer.borderColor = newValue?.cgColor
         }
-    }
-}
-
-extension UserDefaults{
-    static let firstLoad = "firstLoad"
-    
-    func getFirstLoad() -> Bool{
-        return UserDefaults.standard.bool(forKey: UserDefaults.firstLoad)
-    }
-    func setFirsLoad(){
-        UserDefaults.standard.set(true, forKey: UserDefaults.firstLoad)
     }
 }

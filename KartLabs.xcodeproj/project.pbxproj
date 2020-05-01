@@ -23,10 +23,17 @@
 		7F492693245AD421000080A5 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492692245AD421000080A5 /* ProductListViewController.swift */; };
 		7F492695245AD82E000080A5 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */; };
 		7F492699245AD9C3000080A5 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */; };
+		7F4E7AB5245BF601005F8345 /* Cart+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E7AB4245BF601005F8345 /* Cart+Extension.swift */; };
+		7F4E7AB7245C0A36005F8345 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E7AB6245C0A36005F8345 /* CartViewController.swift */; };
+		7F4E7AB9245C0B02005F8345 /* CartDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E7AB8245C0B02005F8345 /* CartDatasource.swift */; };
+		7F4E7ABB245C0BA3005F8345 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E7ABA245C0BA3005F8345 /* CartTableViewCell.swift */; };
 		7F7B7832245B2D9C00EC00E6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B7831245B2D9C00EC00E6 /* Utility.swift */; };
 		7F7B7834245B32EC00EC00E6 /* Category+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */; };
 		7F7B7836245B33EE00EC00E6 /* Products+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */; };
 		7F9DF708245BD849008E5F63 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF707245BD849008E5F63 /* DatabaseManager.swift */; };
+		7F9DF70E245BE3FB008E5F63 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF70D245BE3FB008E5F63 /* View+Extension.swift */; };
+		7F9DF710245BE414008E5F63 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF70F245BE414008E5F63 /* UserDefaults+Extension.swift */; };
+		7F9DF717245BE818008E5F63 /* ProductDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF716245BE818008E5F63 /* ProductDatasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +76,17 @@
 		7F492692245AD421000080A5 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		7F4E7AB4245BF601005F8345 /* Cart+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart+Extension.swift"; sourceTree = "<group>"; };
+		7F4E7AB6245C0A36005F8345 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		7F4E7AB8245C0B02005F8345 /* CartDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDatasource.swift; sourceTree = "<group>"; };
+		7F4E7ABA245C0BA3005F8345 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 		7F7B7831245B2D9C00EC00E6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+Extension.swift"; sourceTree = "<group>"; };
 		7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+Extension.swift"; sourceTree = "<group>"; };
 		7F9DF707245BD849008E5F63 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		7F9DF70D245BE3FB008E5F63 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		7F9DF70F245BE414008E5F63 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		7F9DF716245BE818008E5F63 /* ProductDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDatasource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,18 +138,14 @@
 			isa = PBXGroup;
 			children = (
 				7F492648245ABDA9000080A5 /* AppDelegate.swift */,
-				7F9DF707245BD849008E5F63 /* DatabaseManager.swift */,
-				7F49267B245ABE4A000080A5 /* HomeViewController.swift */,
-				7F492681245AC194000080A5 /* CategoryDatasource.swift */,
-				7F49267F245AC16A000080A5 /* CategoryCollectionViewCell.swift */,
-				7F49267D245AC0DC000080A5 /* Cell+Extension.swift */,
-				7F7B7831245B2D9C00EC00E6 /* Utility.swift */,
-				7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */,
-				7F492692245AD421000080A5 /* ProductListViewController.swift */,
+				7F9DF709245BE3A0008E5F63 /* Home */,
+				7F9DF715245BE780008E5F63 /* ProductsList */,
 				7F492698245AD9C3000080A5 /* ProductDetailsViewController.swift */,
-				7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */,
-				7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */,
+				7F4E7ABC245C1B39005F8345 /* Cart */,
+				7F9DF707245BD849008E5F63 /* DatabaseManager.swift */,
+				7F9DF70B245BE3D0008E5F63 /* ModelsExtension */,
 				7F49264E245ABDA9000080A5 /* Main.storyboard */,
+				7F9DF70A245BE3AD008E5F63 /* Helpers */,
 				7F492654245ABDAB000080A5 /* Assets.xcassets */,
 				7F492656245ABDAB000080A5 /* LaunchScreen.storyboard */,
 				7F492659245ABDAB000080A5 /* Info.plist */,
@@ -170,6 +180,97 @@
 				7F492651245ABDA9000080A5 /* KartLabs.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7F4E7ABC245C1B39005F8345 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E7AB6245C0A36005F8345 /* CartViewController.swift */,
+				7F4E7AB8245C0B02005F8345 /* CartDatasource.swift */,
+				7F4E7ABA245C0BA3005F8345 /* CartTableViewCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		7F9DF709245BE3A0008E5F63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7F9DF712245BE456008E5F63 /* Controller */,
+				7F9DF713245BE462008E5F63 /* Cell */,
+				7F9DF711245BE44E008E5F63 /* Model */,
+				7F9DF714245BE46B008E5F63 /* Datasource */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7F9DF70A245BE3AD008E5F63 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7F9DF70C245BE3DF008E5F63 /* Extension */,
+				7F7B7831245B2D9C00EC00E6 /* Utility.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7F9DF70B245BE3D0008E5F63 /* ModelsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7F7B7835245B33EE00EC00E6 /* Products+Extension.swift */,
+				7F4E7AB4245BF601005F8345 /* Cart+Extension.swift */,
+			);
+			path = ModelsExtension;
+			sourceTree = "<group>";
+		};
+		7F9DF70C245BE3DF008E5F63 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F49267D245AC0DC000080A5 /* Cell+Extension.swift */,
+				7F9DF70D245BE3FB008E5F63 /* View+Extension.swift */,
+				7F9DF70F245BE414008E5F63 /* UserDefaults+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7F9DF711245BE44E008E5F63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F7B7833245B32EC00EC00E6 /* Category+Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F9DF712245BE456008E5F63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F49267B245ABE4A000080A5 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F9DF713245BE462008E5F63 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F49267F245AC16A000080A5 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7F9DF714245BE46B008E5F63 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				7F492681245AC194000080A5 /* CategoryDatasource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		7F9DF715245BE780008E5F63 /* ProductsList */ = {
+			isa = PBXGroup;
+			children = (
+				7F492692245AD421000080A5 /* ProductListViewController.swift */,
+				7F492694245AD82E000080A5 /* ProductCollectionViewCell.swift */,
+				7F9DF716245BE818008E5F63 /* ProductDatasource.swift */,
+			);
+			path = ProductsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,16 +407,23 @@
 			files = (
 				7F7B7832245B2D9C00EC00E6 /* Utility.swift in Sources */,
 				7F492653245ABDA9000080A5 /* KartLabs.xcdatamodeld in Sources */,
+				7F9DF70E245BE3FB008E5F63 /* View+Extension.swift in Sources */,
 				7F9DF708245BD849008E5F63 /* DatabaseManager.swift in Sources */,
 				7F7B7834245B32EC00EC00E6 /* Category+Extension.swift in Sources */,
 				7F492680245AC16A000080A5 /* CategoryCollectionViewCell.swift in Sources */,
 				7F492695245AD82E000080A5 /* ProductCollectionViewCell.swift in Sources */,
+				7F4E7ABB245C0BA3005F8345 /* CartTableViewCell.swift in Sources */,
+				7F4E7AB9245C0B02005F8345 /* CartDatasource.swift in Sources */,
+				7F4E7AB5245BF601005F8345 /* Cart+Extension.swift in Sources */,
 				7F492693245AD421000080A5 /* ProductListViewController.swift in Sources */,
 				7F492682245AC194000080A5 /* CategoryDatasource.swift in Sources */,
 				7F492649245ABDA9000080A5 /* AppDelegate.swift in Sources */,
 				7F492699245AD9C3000080A5 /* ProductDetailsViewController.swift in Sources */,
 				7F49267C245ABE4A000080A5 /* HomeViewController.swift in Sources */,
 				7F49267E245AC0DC000080A5 /* Cell+Extension.swift in Sources */,
+				7F9DF710245BE414008E5F63 /* UserDefaults+Extension.swift in Sources */,
+				7F9DF717245BE818008E5F63 /* ProductDatasource.swift in Sources */,
+				7F4E7AB7245C0A36005F8345 /* CartViewController.swift in Sources */,
 				7F7B7836245B33EE00EC00E6 /* Products+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

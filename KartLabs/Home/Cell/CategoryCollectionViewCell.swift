@@ -18,8 +18,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     func configure(cellWith category:Category){
         name.text = category.name
         content.text = category.content
-        if let imageName = category.imageName{
-            print(imageName)
+        if let imageName = category.imageName{            
             imageView.image = UIImage(named: imageName)
         }
         

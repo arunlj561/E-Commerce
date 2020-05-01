@@ -9,21 +9,17 @@ import UIKit
 
 class ProductDetailsViewController: UIViewController {
 
+    class func productsDetailViewController(forProductId productId:Int64) -> ProductDetailsViewController?{
+        let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+        let productDetailsViewController = storyboard.instantiateViewController(withIdentifier: "ProductDetailsViewController") as? ProductDetailsViewController
+        return productDetailsViewController
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

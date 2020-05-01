@@ -1,30 +1,39 @@
 //
-//  CategoryDatasource.swift
+//  ProductDatasource.swift
 //  KartLabs
 //
-//  Created by Arun Jangid on 30/04/20.
+//  Created by Arun Jangid on 01/05/20.
 //
 
 import UIKit
 import CoreData
-class CategoryDatasource: NSObject, UICollectionViewDataSource {
+
+class ProductDatasource: NSObject, UICollectionViewDataSource {
     
-    var _fetchedResultsController: NSFetchedResultsController<Category>? = nil
+    var _fetchedResultsController: NSFetchedResultsController<Products>? = nil
     var managedObjectContext :NSManagedObjectContext = DatabaseManager.persistentContainer.viewContext
     
-    var fetchedResultsController: NSFetchedResultsController<Category>
+    var categoryId:Int64!
+    weak var delegate:AddToCartDelegate?
+    
+    var fetchedResultsController: NSFetchedResultsController<Products>
     {
+        
     
         if _fetchedResultsController != nil {
             return _fetchedResultsController!
         }
         
-        let fetchRequest: NSFetchRequest<Category> = Category.fetchRequest()
+        guard let categoryId = categoryId else {
+            return _fetchedResultsController!
+        }
+        
+        let fetchRequest: NSFetchRequest<Products> = Products.fetchRequest()
                         
         let sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
         fetchRequest.sortDescriptors = [sortDescriptor]
                 
-        let predicate = NSPredicate(format: "id != nil")
+        let predicate = NSPredicate(format: "id != nil && categoryId == \(categoryId)")
         
         
         fetchRequest.predicate = predicate
@@ -47,17 +56,14 @@ class CategoryDatasource: NSObject, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CategoryCollectionViewCell.reuseIdentifier, for: indexPath) as! CategoryCollectionViewCell
-        
-        
-        let category = self.fetchedResultsController.object(at: indexPath)
-        cell.configure(cellWith: category)
-        return cell
-        
-    }
-    
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ProductCollectionViewCell.reuseIdentifier, for: indexPath) as! ProductCollectionViewCell
+        let product = self.fetchedResultsController.object(at: indexPath)
+        cell.configure(cellWith: product)
+        cell.delegate = self.delegate
+        return cell        
+    }    
 }
 
-extension CategoryDatasource:NSFetchedResultsControllerDelegate{
+extension ProductDatasource:NSFetchedResultsControllerDelegate{
     
 }
