@@ -1030,7 +1030,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please fill your cart by adding some products" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxF-9u-WnA">
-                                <rect key="frame" x="16" y="100" width="414" height="20.333333333333329"/>
+                                <rect key="frame" x="16" y="100" width="382" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1038,16 +1038,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="DxF-9u-WnA" firstAttribute="leading" secondItem="Zqg-n3-Xc0" secondAttribute="leading" constant="16" id="5KA-f9-ybJ"/>
+                            <constraint firstItem="DxF-9u-WnA" firstAttribute="top" secondItem="GTN-kG-OyW" secondAttribute="bottom" constant="12" id="1zl-Bk-qAk"/>
                             <constraint firstItem="Nos-Uz-Fcx" firstAttribute="leading" secondItem="Zqg-n3-Xc0" secondAttribute="leading" id="7Lj-wp-TN8"/>
                             <constraint firstItem="Nos-Uz-Fcx" firstAttribute="top" secondItem="GTN-kG-OyW" secondAttribute="bottom" constant="8" symbolic="YES" id="JZ7-9K-h9y"/>
+                            <constraint firstItem="DxF-9u-WnA" firstAttribute="leading" secondItem="Zqg-n3-Xc0" secondAttribute="leading" constant="16" id="KjG-UE-Rai"/>
                             <constraint firstItem="GTN-kG-OyW" firstAttribute="top" secondItem="Zqg-n3-Xc0" secondAttribute="top" id="RJ4-QH-AfB"/>
-                            <constraint firstItem="DxF-9u-WnA" firstAttribute="top" secondItem="GTN-kG-OyW" secondAttribute="bottom" constant="12" id="U0a-AM-W9M"/>
-                            <constraint firstItem="DxF-9u-WnA" firstAttribute="trailing" secondItem="Zqg-n3-Xc0" secondAttribute="trailing" constant="16" id="bIL-Y2-ZPB"/>
                             <constraint firstItem="Zqg-n3-Xc0" firstAttribute="bottom" secondItem="5ZR-SZ-ZKo" secondAttribute="bottom" id="fsk-HH-iB5"/>
                             <constraint firstItem="Nos-Uz-Fcx" firstAttribute="trailing" secondItem="Zqg-n3-Xc0" secondAttribute="trailing" id="oFu-Ze-uSH"/>
                             <constraint firstItem="5ZR-SZ-ZKo" firstAttribute="top" secondItem="Nos-Uz-Fcx" secondAttribute="bottom" id="oLt-Pp-Fzb"/>
                             <constraint firstItem="5ZR-SZ-ZKo" firstAttribute="leading" secondItem="Zqg-n3-Xc0" secondAttribute="leading" id="olj-dl-Kdc"/>
+                            <constraint firstItem="Zqg-n3-Xc0" firstAttribute="trailing" secondItem="DxF-9u-WnA" secondAttribute="trailing" constant="16" id="u2y-zC-3lR"/>
                             <constraint firstItem="5ZR-SZ-ZKo" firstAttribute="trailing" secondItem="Zqg-n3-Xc0" secondAttribute="trailing" id="xyd-fQ-bsr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zqg-n3-Xc0"/>

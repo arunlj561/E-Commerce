@@ -35,7 +35,7 @@ class CartViewController: UIViewController, RefreshViews{
         self.tableView.dataSource = datasource
         self.updateUI()
         datasource.delegate = self
-    
+        self.updateUI()
     }
 
     func updateUI(){
