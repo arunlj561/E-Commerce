@@ -9,11 +9,17 @@ import UIKit
 
 class ProductListViewController: UIViewController, RefreshViews{
     
-    class func productsListViewController(forCategory category:Category) -> ProductListViewController?{
+    class func productsListViewController(forCategory category:Category?, loadList type:ListType) -> ProductListViewController?{
         let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
         let productListViewController = storyboard.instantiateViewController(withIdentifier: "ProductListViewController") as? ProductListViewController
-        productListViewController?.categoryId = category.id
-        productListViewController?.title = category.name
+        if let category = category{
+            productListViewController?.categoryId = category.id
+            productListViewController?.title = category.name
+        }else{
+            productListViewController?.title = type.title
+        }
+        
+        productListViewController?.listType = type
         return productListViewController
     }
     
@@ -25,6 +31,9 @@ class ProductListViewController: UIViewController, RefreshViews{
     @IBOutlet weak var collectionView:UICollectionView!
     @IBOutlet weak var categoryTitle: UILabel!
     @IBOutlet weak var cartCount: UILabel!
+    
+    var listType:ListType!
+    
     var count :Int!{
         didSet{
             if count > 0 {
@@ -40,6 +49,7 @@ class ProductListViewController: UIViewController, RefreshViews{
         self.categoryTitle.text = self.title
         self.datasource.categoryId = categoryId
         self.collectionView.dataSource = datasource
+        self.datasource.type = self.listType
         self.datasource.delegate = self
         self.datasource.refreshDelegate = self
         self.count = Cart.getAllCartItems()
@@ -52,10 +62,7 @@ class ProductListViewController: UIViewController, RefreshViews{
     }
     
     
-    @IBAction func openCart(_ sender: Any) {
-        self.navigationController?.pushViewController(CartViewController.cartViewController(), animated: true)
-
-    }
+    
     
     func updateRows(forindexPath indexPath: IndexPath) {
         self.collectionView.reloadItems(at: [indexPath])        

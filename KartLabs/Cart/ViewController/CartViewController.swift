@@ -15,7 +15,7 @@ class CartViewController: UIViewController, RefreshViews{
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var totalLabel: UILabel!
-    @IBOutlet weak var currencyPickerView: UIPickerView!
+    @IBOutlet weak var navTitle: UILabel!
     
     @IBOutlet weak var cartStateLabel: UILabel!
     
@@ -31,7 +31,7 @@ class CartViewController: UIViewController, RefreshViews{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Cart"
+        self.navTitle.text = "Cart"
         self.tableView.dataSource = datasource
         self.updateUI()
         datasource.delegate = self
@@ -52,7 +52,7 @@ class CartViewController: UIViewController, RefreshViews{
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func didReceiveMemoryWarning() {

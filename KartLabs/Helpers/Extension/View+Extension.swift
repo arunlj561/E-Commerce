@@ -11,6 +11,10 @@ extension UIViewController{
     @IBAction func pushBack(_ sender:UIButton){
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func openCart(_ sender: Any) {
+        self.navigationController?.pushViewController(CartViewController.cartViewController(), animated: true)
+    }
 }
 
 extension UIView{

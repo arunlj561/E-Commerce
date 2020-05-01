@@ -8,6 +8,29 @@
 import UIKit
 import CoreData
 
+enum ListType{
+    case normal
+    case wishlist
+    case gift
+    
+    var title:String{
+        switch self {
+        case .normal: return ""
+        case .gift: return "Gift"
+        case .wishlist: return "WishList"        
+        }
+    }
+    
+    var emptyMessage:String{
+        switch self {
+        case .normal: return ""
+        case .gift: return "You have not added any products into gift list. Please add from product details."
+        case .wishlist: return "You have not added any products into wishlist. Please add by clicking heart."
+        }
+    }
+}
+
+
 class ProductDatasource: NSObject, UICollectionViewDataSource {
     
     var _fetchedResultsController: NSFetchedResultsController<Products>? = nil
@@ -16,6 +39,8 @@ class ProductDatasource: NSObject, UICollectionViewDataSource {
     var categoryId:Int64!
     weak var delegate:AddToCartDelegate?
     weak var refreshDelegate:RefreshViews?
+    var type = ListType.normal
+    
     
     var fetchedResultsController: NSFetchedResultsController<Products>
     {
@@ -25,19 +50,28 @@ class ProductDatasource: NSObject, UICollectionViewDataSource {
             return _fetchedResultsController!
         }
         
-        guard let categoryId = categoryId else {
-            return _fetchedResultsController!
-        }
+        
         
         let fetchRequest: NSFetchRequest<Products> = Products.fetchRequest()
                         
         let sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
         fetchRequest.sortDescriptors = [sortDescriptor]
-                
-        let predicate = NSPredicate(format: "id != nil && categoryId == \(categoryId)")
         
+        switch type {
+        case .normal:
+            guard let categoryId = categoryId else {
+                return _fetchedResultsController!
+            }
+            let predicate = NSPredicate(format: "id != nil && categoryId == \(categoryId)")
+            fetchRequest.predicate = predicate
+        case .wishlist:
+            let predicate = NSPredicate(format: "id != nil &&  isfavourite == 1")
+            fetchRequest.predicate = predicate
+        case .gift:
+            let predicate = NSPredicate(format: "id != nil &&  giftRegister ==1")
+            fetchRequest.predicate = predicate
+        }
         
-        fetchRequest.predicate = predicate
         let aFetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
                 
         aFetchedResultsController.delegate = self

@@ -12,6 +12,7 @@ class DetailTableViewCell: UITableViewCell {
     @IBOutlet weak var wishList: UIButton!
     @IBOutlet weak var productImage: UIImageView!
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var product:Products!
     
@@ -59,10 +60,13 @@ class DetailTableViewCell: UITableViewCell {
         }
     }
     func updateImage(){
+        productImage.image = UIImage(named: "placeholder")
+        activityIndicator.startAnimating()
         if let url = product.imageUrl, let downloadURL = URL(string: url){
             _ = ImageDownloader.init(downloadURL) { (image) in
             OperationQueue.main.addOperation {
                 self.productImage.image = image
+                self.activityIndicator.stopAnimating()
             }
         }
         }

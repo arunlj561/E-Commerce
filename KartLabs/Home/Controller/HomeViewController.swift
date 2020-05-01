@@ -39,12 +39,19 @@ class HomeViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         self.count = Cart.getAllCartItems()
     }
+    @IBAction func openWishList(_ sender: UIButton) {        
+        if let productsListViewController = ProductListViewController.productsListViewController(forCategory: nil, loadList: .wishlist){
+            self.navigationController?.pushViewController(productsListViewController, animated: true)
+        }
+    }
+        
     
-    @IBAction func openCart(_ sender: Any) {
-        self.navigationController?.pushViewController(CartViewController.cartViewController(), animated: true)
+    @IBAction func openGiftList(_ sender: Any) {
+        if let productsListViewController = ProductListViewController.productsListViewController(forCategory: nil, loadList: .gift){
+            self.navigationController?.pushViewController(productsListViewController, animated: true)
+        }
     }
     
-                
 }
 
 extension HomeViewController:UICollectionViewDelegateFlowLayout{
@@ -55,7 +62,7 @@ extension HomeViewController:UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let category = datasource.fetchedResultsController.object(at: indexPath)
-        if let productsListViewController = ProductListViewController.productsListViewController(forCategory: category){
+        if let productsListViewController = ProductListViewController.productsListViewController(forCategory: category, loadList: .normal){
             self.navigationController?.pushViewController(productsListViewController, animated: true)
         }        
     }
