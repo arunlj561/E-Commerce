@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-protocol UpdateTableView:class {
+protocol RefreshViews:class {
     func deleteRows(forindexPath indexPath:IndexPath)
     func updateRows(forindexPath indexPath:IndexPath)
 }
@@ -19,7 +19,7 @@ class CartDatasource:NSObject,  UITableViewDataSource {
     var _fetchedResultsController: NSFetchedResultsController<Cart>? = nil
     var managedObjectContext :NSManagedObjectContext = DatabaseManager.persistentContainer.viewContext
     
-    weak var delegate:UpdateTableView?
+    weak var delegate:RefreshViews?
     
     var fetchedResultsController: NSFetchedResultsController<Cart>
     {

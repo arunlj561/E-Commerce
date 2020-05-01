@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProductListViewController: UIViewController {
+class ProductListViewController: UIViewController, RefreshViews{
     
     class func productsListViewController(forCategory category:Category) -> ProductListViewController?{
         let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
@@ -17,6 +17,7 @@ class ProductListViewController: UIViewController {
         return productListViewController
     }
     
+    var imageDownloaders = Set<ImageDownloader>()
     
     
     var categoryId: Int64!
@@ -40,6 +41,7 @@ class ProductListViewController: UIViewController {
         self.datasource.categoryId = categoryId
         self.collectionView.dataSource = datasource
         self.datasource.delegate = self
+        self.datasource.refreshDelegate = self
         self.count = Cart.getAllCartItems()
     }
     
@@ -54,6 +56,15 @@ class ProductListViewController: UIViewController {
         self.navigationController?.pushViewController(CartViewController.cartViewController(), animated: true)
 
     }
+    
+    func updateRows(forindexPath indexPath: IndexPath) {
+        self.collectionView.reloadItems(at: [indexPath])        
+    }
+    func deleteRows(forindexPath indexPath: IndexPath) {
+        self.collectionView.reloadData()
+        
+    }
+    
 
 }
 
@@ -64,6 +75,31 @@ extension ProductListViewController:UICollectionViewDelegateFlowLayout{
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let product = datasource.fetchedResultsController.object(at: indexPath)
+        if let productViewController = ProductDetailsViewController.productsDetailViewController(forProduct: product){
+            self.navigationController?.pushViewController(productViewController, animated: true)
+        }
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        guard let cell = cell as? ProductCollectionViewCell else { return }
+        cell.image.image = UIImage(named: "placeholder")
+        if let url = datasource.fetchedResultsController.object(at: indexPath).imageUrl, let imageURl = URL(string: url){
+            if let imageDownloader = imageDownloaders.filter({ $0.imageUrl == imageURl && $0.imageCache != nil}).first{
+                OperationQueue.main.addOperation {
+                    cell.image.image = imageDownloader.imageCache
+                }
+            }else{
+                let downloader = ImageDownloader.init(imageURl) { (image) in
+                    OperationQueue.main.addOperation {
+                        cell.image.image = image
+                    }
+                }
+                imageDownloaders.insert(downloader)
+            }
+        }
+        
     }
 }
 

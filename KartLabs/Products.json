@@ -4,24 +4,24 @@
                 "price": 207,
                 "subCategoryId": 101,
                 "categoryId": 1,
-                "rate": 2.44,
+                "rate": 2.4,
                 "content": "Culpa sed tenetur incidunt quia veniam sed mollitia exercitationem. Laboriosam reprehenderit laborum pariatur ea rem qui inventore. In asperiores dignissimos temporibus et. Beatae consequatur corrupti nam praesentium.",
                 "review": 78,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=137x945&w=137&h=945"
+                "imageUrl": "https://placeimg.com/240/240/tech/1"
               },{
                 "id": 202,
                 "name": "Corporis",
                 "price": 271,
                 "subCategoryId": 101,
                 "categoryId": 1,
-                "rate": 2.18,
+                "rate": 2.1,
                 "content": "Nam incidunt blanditiis odio inventore. Nobis voluptatum quibusdam laboriosam a numquam. Delectus sequi ipsa possimus ratione repellendus quibusdam. Molestiae fuga laudantium natus dolorem.",
                 "review": 67,
                 "typeVariant": "A",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/931x785"
+                "imageUrl": "https://placeimg.com/240/240/tech/2"
               },{
                 "id": 203,
                 "name": "Minus",
@@ -33,7 +33,7 @@
                 "review": 116,
                 "typeVariant": "E",
                 "colorVariant": "2",
-                "imageUrl": "https://dummyimage.com/556x985"
+                "imageUrl": "https://placeimg.com/240/240/tech/3"
               },{
                 "id": 204,
                 "name": "Qui",
@@ -45,7 +45,7 @@
                 "review": 78,
                 "typeVariant": "D",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/855x573"
+                "imageUrl": "https://placeimg.com/240/240/tech/4"
               },{
                 "id": 205,
                 "name": "Blanditiis",
@@ -57,7 +57,7 @@
                 "review": 156,
                 "typeVariant": "A",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=79x934&w=79&h=934"
+                "imageUrl": "https://placeimg.com/240/240/tech/5"
               },{
                 "id": 206,
                 "name": "Est",
@@ -69,7 +69,7 @@
                 "review": 107,
                 "typeVariant": "E",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/135x733"
+                "imageUrl": "https://placeimg.com/240/240/tech/6"
               },{
                 "id": 207,
                 "name": "Incidunt",
@@ -81,7 +81,7 @@
                 "review": 174,
                 "typeVariant": "E",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=578x984&w=578&h=984"
+                "imageUrl": "https://placeimg.com/240/240/tech/7"
               },{
                 "id": 208,
                 "name": "Ratione",
@@ -93,7 +93,7 @@
                 "review": 104,
                 "typeVariant": "B",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=808x46&w=808&h=46"
+                "imageUrl": "https://placeimg.com/240/240/tech/8"
               },{
                 "id": 209,
                 "name": "Similique",
@@ -105,7 +105,7 @@
                 "review": 44,
                 "typeVariant": "C",
                 "colorVariant": "3",
-                "imageUrl": "http://www.lorempixel.com/577/852"
+                "imageUrl": "https://placeimg.com/240/240/tech/9"
               },{
                 "id": 210,
                 "name": "Molestias",
@@ -117,7 +117,7 @@
                 "review": 95,
                 "typeVariant": "E",
                 "colorVariant": "2",
-                "imageUrl": "https://dummyimage.com/76x231"
+                "imageUrl": "https://placeimg.com/240/240/tech/9"
               },{
                 "id": 211,
                 "name": "Modi",
@@ -129,7 +129,7 @@
                 "review": 153,
                 "typeVariant": "E",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=533x992&w=533&h=992"
+                "imageUrl": "https://placeimg.com/240/240/tech/10"
               },{
                 "id": 212,
                 "name": "Voluptatibus",
@@ -141,7 +141,7 @@
                 "review": 29,
                 "typeVariant": "C",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/153x1011"
+                "imageUrl": "https://placeimg.com/240/240/tech/11"
               },{
                 "id": 213,
                 "name": "Sapiente",
@@ -153,7 +153,7 @@
                 "review": 200,
                 "typeVariant": "B",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/379x367"
+                "imageUrl": "https://placeimg.com/240/240/tech/12"
               },{
                 "id": 214,
                 "name": "Alias",
@@ -165,7 +165,7 @@
                 "review": 68,
                 "typeVariant": "B",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=470x604&w=470&h=604"
+                "imageUrl": "https://placeimg.com/240/240/tech/13"
               },{
                 "id": 215,
                 "name": "Non",
@@ -177,7 +177,7 @@
                 "review": 86,
                 "typeVariant": "B",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/624x281"
+                "imageUrl": "https://placeimg.com/240/240/tech/14"
               },{
                 "id": 216,
                 "name": "Quaerat",
@@ -189,7 +189,7 @@
                 "review": 135,
                 "typeVariant": "E",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/864/326"
+                "imageUrl": "https://placeimg.com/240/240/tech/15"
               },{
                 "id": 217,
                 "name": "Odit",
@@ -201,7 +201,7 @@
                 "review": 186,
                 "typeVariant": "A",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=270x252&w=270&h=252"
+                "imageUrl": "https://placeimg.com/240/240/tech/16"
               },{
                 "id": 218,
                 "name": "Quibusdam",
@@ -213,7 +213,7 @@
                 "review": 125,
                 "typeVariant": "B",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=757x645&w=757&h=645"
+                "imageUrl": "https://placeimg.com/240/240/tech/17"
               },{
                 "id": 219,
                 "name": "Velit",
@@ -225,7 +225,7 @@
                 "review": 125,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/839x368"
+                "imageUrl": "https://placeimg.com/240/240/tech/18"
               },{
                 "id": 220,
                 "name": "Soluta",
@@ -237,7 +237,7 @@
                 "review": 34,
                 "typeVariant": "B",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=296x80&w=296&h=80"
+                "imageUrl": "https://placeimg.com/240/240/tech/19"
               },{
                 "id": 221,
                 "name": "Labore",
@@ -249,7 +249,7 @@
                 "review": 151,
                 "typeVariant": "E",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/177x607"
+                "imageUrl": "https://placeimg.com/240/240/tech/20"
               },{
                 "id": 222,
                 "name": "Odit",
@@ -261,7 +261,7 @@
                 "review": 67,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=642x911&w=642&h=911"
+                "imageUrl": "https://placeimg.com/240/240/tech/21"
               },{
                 "id": 223,
                 "name": "Quos",
@@ -273,7 +273,7 @@
                 "review": 188,
                 "typeVariant": "E",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=381x581&w=381&h=581"
+                "imageUrl": "https://placeimg.com/240/240/tech/22"
               },{
                 "id": 224,
                 "name": "Sunt",
@@ -285,7 +285,7 @@
                 "review": 63,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=986x453&w=986&h=453"
+                "imageUrl": "https://placeimg.com/240/240/tech/23"
               },{
                 "id": 225,
                 "name": "Nemo",
@@ -297,7 +297,7 @@
                 "review": 116,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/539/402"
+                "imageUrl": "https://placeimg.com/240/240/tech/24"
               },{
                 "id": 226,
                 "name": "Quo",
@@ -309,7 +309,7 @@
                 "review": 157,
                 "typeVariant": "A",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/786x94"
+                "imageUrl": "https://placeimg.com/240/240/tech/25"
               },{
                 "id": 227,
                 "name": "Nobis",
@@ -321,7 +321,7 @@
                 "review": 30,
                 "typeVariant": "B",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/974x504"
+                "imageUrl": "https://placeimg.com/240/240/tech/26"
               },{
                 "id": 228,
                 "name": "Explicabo",
@@ -333,7 +333,7 @@
                 "review": 11,
                 "typeVariant": "E",
                 "colorVariant": "1",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=394x236&w=394&h=236"
+                "imageUrl": "https://placeimg.com/240/240/tech/27"
               },{
                 "id": 229,
                 "name": "Hic",
@@ -345,7 +345,7 @@
                 "review": 78,
                 "typeVariant": "C",
                 "colorVariant": "4",
-                "imageUrl": "http://www.lorempixel.com/152/368"
+                "imageUrl": "https://placeimg.com/240/240/tech/28"
               },{
                 "id": 230,
                 "name": "Occaecati",
@@ -357,7 +357,7 @@
                 "review": 103,
                 "typeVariant": "C",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/686x327"
+                "imageUrl": "https://placeimg.com/240/240/tech/29"
               },{
                 "id": 231,
                 "name": "Consequatur",
@@ -369,7 +369,7 @@
                 "review": 77,
                 "typeVariant": "A",
                 "colorVariant": "4",
-                "imageUrl": "http://www.lorempixel.com/264/459"
+                "imageUrl": "https://randomuser.me/api/portraits/men/1.jpg"
               },{
                 "id": 232,
                 "name": "Assumenda",
@@ -381,7 +381,7 @@
                 "review": 126,
                 "typeVariant": "D",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=581x409&w=581&h=409"
+                "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg"
               },{
                 "id": 233,
                 "name": "Placeat",
@@ -393,7 +393,7 @@
                 "review": 21,
                 "typeVariant": "A",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/698x680"
+                "imageUrl": "https://randomuser.me/api/portraits/men/3.jpg"
               },{
                 "id": 234,
                 "name": "Vero",
@@ -405,7 +405,7 @@
                 "review": 120,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/600x862"
+                "imageUrl": "https://randomuser.me/api/portraits/men/3.jpg"
               },{
                 "id": 235,
                 "name": "Facilis",
@@ -417,7 +417,7 @@
                 "review": 118,
                 "typeVariant": "E",
                 "colorVariant": "4",
-                "imageUrl": "http://www.lorempixel.com/10/116"
+                "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg"
               },{
                 "id": 236,
                 "name": "Ratione",
@@ -429,7 +429,7 @@
                 "review": 30,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/357x988"
+                "imageUrl": "https://randomuser.me/api/portraits/men/5.jpg"
               },{
                 "id": 237,
                 "name": "Non",
@@ -441,7 +441,7 @@
                 "review": 112,
                 "typeVariant": "A",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=393x425&w=393&h=425"
+                "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg"
               },{
                 "id": 238,
                 "name": "Quaerat",
@@ -453,7 +453,7 @@
                 "review": 68,
                 "typeVariant": "E",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/904/25"
+                "imageUrl": "https://randomuser.me/api/portraits/men/7.jpg"
               },{
                 "id": 239,
                 "name": "Fugiat",
@@ -465,7 +465,7 @@
                 "review": 53,
                 "typeVariant": "A",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=431x742&w=431&h=742"
+                "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg"
               },{
                 "id": 240,
                 "name": "Voluptas",
@@ -477,7 +477,7 @@
                 "review": 199,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/572x213"
+                "imageUrl": "https://randomuser.me/api/portraits/men/9.jpg"
               },{
                 "id": 241,
                 "name": "Modi",
@@ -489,7 +489,7 @@
                 "review": 67,
                 "typeVariant": "B",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/98x433"
+                "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg"
               },{
                 "id": 242,
                 "name": "Id",
@@ -501,7 +501,7 @@
                 "review": 1,
                 "typeVariant": "B",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=1007x970&w=1007&h=970"
+                "imageUrl": "https://randomuser.me/api/portraits/men/11.jpg"
               },{
                 "id": 243,
                 "name": "Nam",
@@ -513,7 +513,7 @@
                 "review": 26,
                 "typeVariant": "D",
                 "colorVariant": "3",
-                "imageUrl": "http://www.lorempixel.com/829/996"
+                "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg"
               },{
                 "id": 244,
                 "name": "Adipisci",
@@ -525,7 +525,7 @@
                 "review": 56,
                 "typeVariant": "E",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=837x461&w=837&h=461"
+                "imageUrl": "https://randomuser.me/api/portraits/men/13.jpg"
               },{
                 "id": 245,
                 "name": "Ullam",
@@ -537,7 +537,7 @@
                 "review": 193,
                 "typeVariant": "B",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=929x50&w=929&h=50"
+                "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg"
               },{
                 "id": 246,
                 "name": "Eligendi",
@@ -549,7 +549,7 @@
                 "review": 141,
                 "typeVariant": "C",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=814x312&w=814&h=312"
+                "imageUrl": "https://randomuser.me/api/portraits/men/15.jpg"
               },{
                 "id": 247,
                 "name": "Fuga",
@@ -561,7 +561,7 @@
                 "review": 11,
                 "typeVariant": "B",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/79/241"
+                "imageUrl": "https://randomuser.me/api/portraits/men/16.jpg"
               },{
                 "id": 248,
                 "name": "Amet",
@@ -573,7 +573,7 @@
                 "review": 161,
                 "typeVariant": "B",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=326x688&w=326&h=688"
+                "imageUrl": "https://randomuser.me/api/portraits/men/17.jpg"
               },{
                 "id": 249,
                 "name": "Adipisci",
@@ -585,7 +585,7 @@
                 "review": 89,
                 "typeVariant": "B",
                 "colorVariant": "1",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=814x346&w=814&h=346"
+                "imageUrl": "https://randomuser.me/api/portraits/men/18.jpg"
               },{
                 "id": 250,
                 "name": "Perspiciatis",
@@ -597,7 +597,7 @@
                 "review": 74,
                 "typeVariant": "B",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/919x653"
+                "imageUrl": "https://randomuser.me/api/portraits/men/19.jpg"
               },{
                 "id": 251,
                 "name": "Laudantium",
@@ -609,7 +609,7 @@
                 "review": 25,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/741/328"
+                "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg"
               },{
                 "id": 252,
                 "name": "Expedita",
@@ -621,7 +621,7 @@
                 "review": 13,
                 "typeVariant": "D",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=1002x757&w=1002&h=757"
+                "imageUrl": "https://randomuser.me/api/portraits/women/2.jpg"
               },{
                 "id": 253,
                 "name": "Porro",
@@ -633,7 +633,7 @@
                 "review": 116,
                 "typeVariant": "E",
                 "colorVariant": "3",
-                "imageUrl": "http://www.lorempixel.com/819/147"
+                "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg"
               },{
                 "id": 254,
                 "name": "Veniam",
@@ -645,7 +645,7 @@
                 "review": 193,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/818x38"
+                "imageUrl": "https://randomuser.me/api/portraits/women/4.jpg"
               },{
                 "id": 255,
                 "name": "Perferendis",
@@ -657,7 +657,7 @@
                 "review": 166,
                 "typeVariant": "B",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=549x208&w=549&h=208"
+                "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg"
               },{
                 "id": 256,
                 "name": "Dolores",
@@ -669,7 +669,7 @@
                 "review": 52,
                 "typeVariant": "A",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/64/850"
+                "imageUrl": "https://randomuser.me/api/portraits/women/6.jpg"
               },{
                 "id": 257,
                 "name": "Quas",
@@ -681,7 +681,7 @@
                 "review": 1,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/792/501"
+                "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg"
               },{
                 "id": 258,
                 "name": "Optio",
@@ -693,7 +693,7 @@
                 "review": 150,
                 "typeVariant": "E",
                 "colorVariant": "4",
-                "imageUrl": "http://www.lorempixel.com/392/558"
+                "imageUrl": "https://randomuser.me/api/portraits/women/8.jpg"
               },{
                 "id": 259,
                 "name": "Dignissimos",
@@ -705,7 +705,7 @@
                 "review": 128,
                 "typeVariant": "E",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=428x336&w=428&h=336"
+                "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg"
               },{
                 "id": 260,
                 "name": "Iste",
@@ -717,7 +717,7 @@
                 "review": 141,
                 "typeVariant": "E",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=655x143&w=655&h=143"
+                "imageUrl": "https://randomuser.me/api/portraits/women/10.jpg"
               },{
                 "id": 261,
                 "name": "Laborum",
@@ -729,7 +729,7 @@
                 "review": 96,
                 "typeVariant": "B",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=183x413&w=183&h=413"
+                "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg"
               },{
                 "id": 262,
                 "name": "Incidunt",
@@ -741,7 +741,7 @@
                 "review": 45,
                 "typeVariant": "D",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=361x863&w=361&h=863"
+                "imageUrl": "https://randomuser.me/api/portraits/women/12.jpg"
               },{
                 "id": 263,
                 "name": "Sunt",
@@ -753,7 +753,7 @@
                 "review": 156,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/126/191"
+                "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg"
               },{
                 "id": 264,
                 "name": "Soluta",
@@ -765,7 +765,7 @@
                 "review": 23,
                 "typeVariant": "E",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/359x257"
+                "imageUrl": "https://randomuser.me/api/portraits/women/14.jpg"
               },{
                 "id": 265,
                 "name": "Tenetur",
@@ -777,7 +777,7 @@
                 "review": 192,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "http://www.lorempixel.com/723/776"
+                "imageUrl": "https://randomuser.me/api/portraits/women/15.jpg"
               },{
                 "id": 266,
                 "name": "Iure",
@@ -789,7 +789,7 @@
                 "review": 169,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/1007x329"
+                "imageUrl": "https://randomuser.me/api/portraits/women/16.jpg"
               },{
                 "id": 267,
                 "name": "Asperiores",
@@ -801,7 +801,7 @@
                 "review": 28,
                 "typeVariant": "C",
                 "colorVariant": "4",
-                "imageUrl": "http://www.lorempixel.com/905/770"
+                "imageUrl": "https://randomuser.me/api/portraits/women/17.jpg"
               },{
                 "id": 268,
                 "name": "Et",
@@ -813,7 +813,7 @@
                 "review": 151,
                 "typeVariant": "D",
                 "colorVariant": "4",
-                "imageUrl": "http://www.lorempixel.com/530/215"
+                "imageUrl": "https://randomuser.me/api/portraits/women/18.jpg"
               },{
                 "id": 269,
                 "name": "Deleniti",
@@ -825,7 +825,7 @@
                 "review": 50,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/480x442"
+                "imageUrl": "https://picsum.photos/id/1/240/240"
               },{
                 "id": 270,
                 "name": "Vel",
@@ -837,7 +837,7 @@
                 "review": 72,
                 "typeVariant": "B",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=977x381&w=977&h=381"
+                "imageUrl": "https://picsum.photos/id/2/240/240"
               },{
                 "id": 271,
                 "name": "Odio",
@@ -849,7 +849,7 @@
                 "review": 166,
                 "typeVariant": "D",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/216x357"
+                "imageUrl": "https://picsum.photos/id/3/240/240"
               },{
                 "id": 272,
                 "name": "Quia",
@@ -861,7 +861,7 @@
                 "review": 96,
                 "typeVariant": "C",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=664x425&w=664&h=425"
+                "imageUrl": "https://picsum.photos/id/4/240/240"
               },{
                 "id": 273,
                 "name": "Aut",
@@ -873,7 +873,7 @@
                 "review": 28,
                 "typeVariant": "B",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/200x879"
+                "imageUrl": "https://picsum.photos/id/5/240/240"
               },{
                 "id": 274,
                 "name": "Vero",
@@ -885,7 +885,7 @@
                 "review": 118,
                 "typeVariant": "D",
                 "colorVariant": "3",
-                "imageUrl": "http://www.lorempixel.com/461/675"
+                "imageUrl": "https://picsum.photos/id/6/240/240"
               },{
                 "id": 275,
                 "name": "Iure",
@@ -897,7 +897,7 @@
                 "review": 161,
                 "typeVariant": "B",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=1012x39&w=1012&h=39"
+                "imageUrl": "https://picsum.photos/id/7/240/240"
               },{
                 "id": 276,
                 "name": "Vel",
@@ -909,7 +909,7 @@
                 "review": 63,
                 "typeVariant": "B",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/159x241"
+                "imageUrl": "https://picsum.photos/id/8/240/240"
               },{
                 "id": 277,
                 "name": "Aliquid",
@@ -921,7 +921,7 @@
                 "review": 200,
                 "typeVariant": "A",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/75x496"
+                "imageUrl": "https://picsum.photos/id/9/240/240"
               },{
                 "id": 278,
                 "name": "Accusantium",
@@ -933,7 +933,7 @@
                 "review": 145,
                 "typeVariant": "E",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/1019/400"
+                "imageUrl": "https://picsum.photos/id/10/240/240"
               },{
                 "id": 279,
                 "name": "Exercitationem",
@@ -945,7 +945,7 @@
                 "review": 152,
                 "typeVariant": "C",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/953/759"
+                "imageUrl": "https://picsum.photos/id/11/240/240"
               },{
                 "id": 280,
                 "name": "Quaerat",
@@ -957,7 +957,7 @@
                 "review": 109,
                 "typeVariant": "D",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=1020x397&w=1020&h=397"
+                "imageUrl": "https://picsum.photos/id/12/240/240"
               },{
                 "id": 281,
                 "name": "Hic",
@@ -969,7 +969,7 @@
                 "review": 32,
                 "typeVariant": "A",
                 "colorVariant": "2",
-                "imageUrl": "https://dummyimage.com/947x108"
+                "imageUrl": "https://picsum.photos/id/13/240/240"
               },{
                 "id": 282,
                 "name": "A",
@@ -981,7 +981,7 @@
                 "review": 19,
                 "typeVariant": "C",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/837x611"
+                "imageUrl": "https://picsum.photos/id/14/240/240"
               },{
                 "id": 283,
                 "name": "Quo",
@@ -993,7 +993,7 @@
                 "review": 135,
                 "typeVariant": "B",
                 "colorVariant": "1",
-                "imageUrl": "http://www.lorempixel.com/316/321"
+                "imageUrl": "https://picsum.photos/id/15/240/240"
               },{
                 "id": 284,
                 "name": "Cum",
@@ -1005,7 +1005,7 @@
                 "review": 27,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/398x558"
+                "imageUrl": "https://picsum.photos/id/16/240/240"
               },{
                 "id": 285,
                 "name": "Commodi",
@@ -1017,7 +1017,7 @@
                 "review": 181,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "http://www.lorempixel.com/55/827"
+                "imageUrl": "https://picsum.photos/id/17/240/240"
               },{
                 "id": 286,
                 "name": "Ratione",
@@ -1029,7 +1029,7 @@
                 "review": 193,
                 "typeVariant": "C",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/804/486"
+                "imageUrl": "https://picsum.photos/id/18/240/240"
               },{
                 "id": 287,
                 "name": "Pariatur",
@@ -1041,7 +1041,7 @@
                 "review": 188,
                 "typeVariant": "B",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/261/923"
+                "imageUrl": "https://picsum.photos/id/19/240/240"
               },{
                 "id": 288,
                 "name": "Pariatur",
@@ -1053,7 +1053,7 @@
                 "review": 161,
                 "typeVariant": "D",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=378x940&w=378&h=940"
+                "imageUrl": "https://picsum.photos/id/20/240/240"
               },{
                 "id": 289,
                 "name": "Voluptas",
@@ -1065,7 +1065,7 @@
                 "review": 168,
                 "typeVariant": "C",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/72x712"
+                "imageUrl": "https://picsum.photos/id/21/240/240"
               },{
                 "id": 290,
                 "name": "Rem",
@@ -1077,7 +1077,7 @@
                 "review": 75,
                 "typeVariant": "E",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=896x635&w=896&h=635"
+                "imageUrl": "https://picsum.photos/id/22/240/240"
               },{
                 "id": 291,
                 "name": "Mollitia",
@@ -1089,7 +1089,7 @@
                 "review": 13,
                 "typeVariant": "E",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/519x648"
+                "imageUrl": "https://picsum.photos/id/23/240/240"
               },{
                 "id": 292,
                 "name": "Asperiores",
@@ -1101,7 +1101,7 @@
                 "review": 160,
                 "typeVariant": "A",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/42x609"
+                "imageUrl": "https://picsum.photos/id/24/240/240"
               },{
                 "id": 293,
                 "name": "Aperiam",
@@ -1113,7 +1113,7 @@
                 "review": 137,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "http://www.lorempixel.com/928/944"
+                "imageUrl": "https://picsum.photos/id/100/240/240"
               },{
                 "id": 294,
                 "name": "Quas",
@@ -1125,7 +1125,7 @@
                 "review": 127,
                 "typeVariant": "A",
                 "colorVariant": "3",
-                "imageUrl": "http://www.lorempixel.com/136/936"
+                "imageUrl": "https://picsum.photos/id/101/240/240"
               },{
                 "id": 295,
                 "name": "Commodi",
@@ -1137,7 +1137,7 @@
                 "review": 57,
                 "typeVariant": "D",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=674x664&w=674&h=664"
+                "imageUrl": "https://picsum.photos/id/102/240/240"
               },{
                 "id": 296,
                 "name": "Beatae",
@@ -1149,7 +1149,7 @@
                 "review": 5,
                 "typeVariant": "D",
                 "colorVariant": "2",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=235x308&w=235&h=308"
+                "imageUrl": "https://picsum.photos/id/103/240/240"
               },{
                 "id": 297,
                 "name": "Tempora",
@@ -1161,7 +1161,7 @@
                 "review": 184,
                 "typeVariant": "E",
                 "colorVariant": "4",
-                "imageUrl": "https://dummyimage.com/895x619"
+                "imageUrl": "https://picsum.photos/id/104/240/240"
               },{
                 "id": 298,
                 "name": "Sed",
@@ -1173,7 +1173,7 @@
                 "review": 68,
                 "typeVariant": "B",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/92x294"
+                "imageUrl": "https://picsum.photos/id/105/240/240"
               },{
                 "id": 299,
                 "name": "Repudiandae",
@@ -1185,7 +1185,7 @@
                 "review": 121,
                 "typeVariant": "D",
                 "colorVariant": "4",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=157x546&w=157&h=546"
+                "imageUrl": "https://picsum.photos/id/106/240/240"
               },{
                 "id": 300,
                 "name": "Ducimus",
@@ -1197,7 +1197,7 @@
                 "review": 55,
                 "typeVariant": "A",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/515x235"
+                "imageUrl": "https://picsum.photos/id/107/240/240"
               },{
                 "id": 301,
                 "name": "Fuga",
@@ -1209,7 +1209,7 @@
                 "review": 2,
                 "typeVariant": "A",
                 "colorVariant": "2",
-                "imageUrl": "https://dummyimage.com/266x326"
+                "imageUrl": "https://picsum.photos/id/108/240/240"
               },{
                 "id": 302,
                 "name": "Molestiae",
@@ -1221,7 +1221,7 @@
                 "review": 136,
                 "typeVariant": "D",
                 "colorVariant": "1",
-                "imageUrl": "http://www.lorempixel.com/90/38"
+                "imageUrl": "https://picsum.photos/id/109/240/240"
               },{
                 "id": 303,
                 "name": "Incidunt",
@@ -1233,7 +1233,7 @@
                 "review": 5,
                 "typeVariant": "A",
                 "colorVariant": "3",
-                "imageUrl": "http://www.lorempixel.com/536/145"
+                "imageUrl": "https://picsum.photos/id/110/240/240"
               },{
                 "id": 304,
                 "name": "Voluptate",
@@ -1245,7 +1245,7 @@
                 "review": 167,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/394x44"
+                "imageUrl": "https://picsum.photos/id/111/240/240"
               },{
                 "id": 305,
                 "name": "Aliquid",
@@ -1257,7 +1257,7 @@
                 "review": 32,
                 "typeVariant": "C",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=569x118&w=569&h=118"
+                "imageUrl": "https://picsum.photos/id/112/240/240"
               },{
                 "id": 306,
                 "name": "Ab",
@@ -1269,7 +1269,7 @@
                 "review": 76,
                 "typeVariant": "A",
                 "colorVariant": "5",
-                "imageUrl": "https://dummyimage.com/74x541"
+                "imageUrl": "https://picsum.photos/id/113/240/240"
               },{
                 "id": 307,
                 "name": "Error",
@@ -1281,7 +1281,7 @@
                 "review": 124,
                 "typeVariant": "E",
                 "colorVariant": "1",
-                "imageUrl": "http://www.lorempixel.com/83/204"
+                "imageUrl": "https://picsum.photos/id/114/240/240"
               },{
                 "id": 308,
                 "name": "Inventore",
@@ -1293,7 +1293,7 @@
                 "review": 135,
                 "typeVariant": "E",
                 "colorVariant": "1",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=832x143&w=832&h=143"
+                "imageUrl": "https://picsum.photos/id/115/240/240"
               },{
                 "id": 309,
                 "name": "Fugit",
@@ -1305,7 +1305,7 @@
                 "review": 167,
                 "typeVariant": "E",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=351x502&w=351&h=502"
+                "imageUrl": "https://picsum.photos/id/116/240/240"
               },{
                 "id": 310,
                 "name": "Beatae",
@@ -1317,7 +1317,7 @@
                 "review": 26,
                 "typeVariant": "A",
                 "colorVariant": "1",
-                "imageUrl": "https://dummyimage.com/921x262"
+                "imageUrl": "https://picsum.photos/id/117/240/240"
               },{
                 "id": 311,
                 "name": "Est",
@@ -1329,7 +1329,7 @@
                 "review": 103,
                 "typeVariant": "B",
                 "colorVariant": "2",
-                "imageUrl": "http://www.lorempixel.com/811/741"
+                "imageUrl": "https://picsum.photos/id/118/240/240"
               },{
                 "id": 312,
                 "name": "Maiores",
@@ -1341,7 +1341,7 @@
                 "review": 129,
                 "typeVariant": "B",
                 "colorVariant": "5",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=525x297&w=525&h=297"
+                "imageUrl": "https://picsum.photos/id/119/240/240"
               },{
                 "id": 313,
                 "name": "Cumque",
@@ -1353,7 +1353,7 @@
                 "review": 173,
                 "typeVariant": "C",
                 "colorVariant": "3",
-                "imageUrl": "https://placeholdit.imgix.net/~text?txtsize=55&txt=683x182&w=683&h=182"
+                "imageUrl": "https://picsum.photos/id/120/240/240"
               },{
                 "id": 314,
                 "name": "Repellendus",
@@ -1365,7 +1365,7 @@
                 "review": 177,
                 "typeVariant": "B",
                 "colorVariant": "3",
-                "imageUrl": "https://dummyimage.com/396x712"
+                "imageUrl": "https://picsum.photos/id/121/240/240"
               },{
                 "id": 315,
                 "name": "Quibusdam",

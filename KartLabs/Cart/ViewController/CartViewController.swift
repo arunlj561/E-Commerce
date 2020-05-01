@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class CartViewController: UIViewController, UpdateTableView{
+class CartViewController: UIViewController, RefreshViews{
     
     
     

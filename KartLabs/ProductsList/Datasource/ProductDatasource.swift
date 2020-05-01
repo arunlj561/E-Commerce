@@ -15,6 +15,7 @@ class ProductDatasource: NSObject, UICollectionViewDataSource {
     
     var categoryId:Int64!
     weak var delegate:AddToCartDelegate?
+    weak var refreshDelegate:RefreshViews?
     
     var fetchedResultsController: NSFetchedResultsController<Products>
     {
@@ -65,5 +66,15 @@ class ProductDatasource: NSObject, UICollectionViewDataSource {
 }
 
 extension ProductDatasource:NSFetchedResultsControllerDelegate{
+             
+    func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
+        switch type {
+            case .delete: refreshDelegate?.deleteRows(forindexPath: indexPath!)
+            case .update: refreshDelegate?.updateRows(forindexPath: indexPath!)
+            default:
+                break
+        }
+    }
     
+
 }

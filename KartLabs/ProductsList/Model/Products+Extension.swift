@@ -58,7 +58,8 @@ extension Products{
             if let colorVariant = dict["colorVariant"] as? String{
                 product.colorVarient = colorVariant
             }
-            product.isfavourite = false            
+            product.isfavourite = false
+            product.giftRegister = false
         }
     }
     
@@ -83,6 +84,21 @@ extension Products{
             let result = try context.fetch(fetchRequest)
             if let product = result.first{
                 product.isfavourite = !product.isfavourite
+            }
+            DatabaseManager.saveContext()
+        } catch {
+            print("Could not fetch product")
+        }
+    }
+    
+    func updateGiftRegister(){
+        let context = DatabaseManager.persistentContainer.viewContext
+        let fetchRequest: NSFetchRequest<Products> = Products.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "id == \(self.id)")
+        do {
+            let result = try context.fetch(fetchRequest)
+            if let product = result.first{
+                product.giftRegister = !product.giftRegister
             }
             DatabaseManager.saveContext()
         } catch {

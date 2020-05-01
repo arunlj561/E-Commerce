@@ -18,11 +18,20 @@ class ProductCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var rating: UILabel!
     @IBOutlet weak var wishlist: UIButton!
     
+    @IBOutlet weak var widthConstraint: NSLayoutConstraint!
+    
     weak var delegate:AddToCartDelegate?
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        widthConstraint.constant = (deviceWidth/2) - 32
+    }
+    
     
     override func prepareForReuse() {
         super.prepareForReuse()
         wishlist.isSelected = false
+        widthConstraint.constant = (deviceWidth/2) - 32
     }
     
     @IBAction func addToCart(_ sender: UIButton) {
@@ -36,8 +45,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         self.product = product
         title.text = product.name
         price.text = "₹ \(product.price)"
-        rating.text = "\(product.rating)"
-        image.image = UIImage(named: "baby")
+        rating.text = "\(product.rating)"        
         wishlist.isSelected = product.isfavourite
     }
     
